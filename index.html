@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমাদের ফনিসাইর - ডিজিটাল গ্রাম</title>
+    <style>
+        :root {
+            --primary: #1e3c72;
+            --secondary: #2a5298;
+            --accent: #ffd700;
+            --text-light: #f4f4f4;
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--text-light);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-radius: 0 0 50px 50px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        h1 { color: var(--accent); margin: 0; font-size: 2.5rem; }
+        h2 { border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; color: var(--accent); }
+
+        .section {
+            background: var(--glass);
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid var(--accent);
+        }
+
+        .officer-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+
+        .officer-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #ddd;
+            object-fit: cover;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .label { font-weight: bold; color: var(--accent); width: 40%; }
+
+        .emergency-btn {
+            display: block;
+            text-align: center;
+            background: #d32f2f;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .footer { text-align: center; padding: 20px; font-size: 0.9rem; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🏡 আমাদের ফনিসাইর</h1>
+    <p>ঐতিহ্যের শেকড় থেকে আগামীর পথে</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📖 গ্রামের ইতিহাস ও পরিচয়</h2>
+        <p>চাঁদপুর জেলার ফরিদগঞ্জ উপজেলার ৩ নং সুবিদপুর পূর্ব ইউনিয়নের ৪ নং ওয়ার্ডের এক শান্ত, সুনিবিড় এবং ছায়াঘেরা জনপদ হলো ফনিসাইর। প্রাকৃতিক সৌন্দর্য আর ভ্রাতৃত্বের এক অনন্য মেলবন্ধন এই গ্রাম।</p>
+        <p><b>ভৌগোলিক অবস্থান:</b> গ্রামটি মূলত কৃষিপ্রধান এবং চাঁদপুর-কুমিল্লা সীমান্তবর্তী অঞ্চলের কাছাকাছি অবস্থিত। গ্রামটি দুই ভাগে বিভক্ত: <b>পশ্চিম পাড়া</b> ও <b>পূর্ব পাড়া</b>। ৩ নং সুবিদপুর পূর্ব ইউনিয়ন পরিষদ কার্যালয়টি এই গ্রামেই বেপারি বাড়ির পাশে অবস্থিত।</p>
+    </div>
+
+    <div class="section">
+        <h2>👥 ইউনিয়ন পরিষদ ও কর্মকর্তা</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>ইউপি চেয়ারম্যান</h3>
+                <div class="officer-card">
+                    <div>
+                        <strong>মোঃ বেলায়েত হোসেন</strong><br>
+                        <small>মোবাইল: ০১৭১৪৪০৫৮৫৮</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>গুরুত্বপূর্ণ কর্মকর্তা</h3>
+                <div class="officer-card">
+                    <div><strong>মোঃ মাসুদুর রহমান</strong><br><small>ইউপি সচিব: ০১৫৫১৮০৭৫৩৭</small></div>
+                </div>
+                <div class="officer-card">
+                    <div><strong>ফারজানা বেগম</strong><br><small>সমাজ সেবা কর্মকর্তা: ০১৭৮২০৩৬৪৫০</small></div>
+                </div>
+                <div class="officer-card">
+                    <div><strong>মোঃ মোস্তফা খান</strong><br><small>সচিব: ০১৮১৪৪৯১-৮৯৯</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚨 জরুরি সেবা ও গ্রাম পুলিশ</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>গ্রাম পুলিশ (ফনিসাইর ও ইউনিয়ন)</h3>
+                <p>📍 বাজু মিয়া: ০১০১৮৪৬০৯১৪২</p>
+                <p>📍 ইমান হোসেন (ফনিসাইর): ০১৮৭০৭৯৯৭২২</p>
+                <p>📍 আমিনুল ইসলাম (ফনিসাইর): ০১৮৩২৯৩৬৮১৭</p>
+            </div>
+            <div class="card" style="border-left-color: #ff5252;">
+                <h3>সরকারি হটলাইন</h3>
+                <a href="tel:999" class="emergency-btn">জরুরি সেবা - ৯৯৯</a>
+                <a href="tel:333" class="emergency-btn" style="background:#00796b;">তথ্য ও সেবা - ৩৩৩</a>
+                <a href="tel:102" class="emergency-btn" style="background:#f57c00;">ফায়ার সার্ভিস - ১০২</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏫 শিক্ষা ও ধর্মীয় প্রতিষ্ঠান</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>শিক্ষা প্রতিষ্ঠান</h3>
+                <ul>
+                    <li>২৪ নং ফনিসাইর সরকারি প্রাথমিক বিদ্যালয় (প্রতিষ্ঠাতা: সিরাজুল ইসলাম মাস্টার)</li>
+                    <li>ফনিসাইর দারুচ্ছুন্নাত দ্বীনিয়া মাদ্রাসা (প্রতিষ্ঠাতা: মাওঃ মোস্তফা কামাল)</li>
+                    <li>জমদ্দার বাড়ি ও পূর্বপাড়া মসজিদ মক্তব</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>মসজিদসমূহ</h3>
+                <ul>
+                    <li>ফনিসাইর কেন্দ্রীয় ও পূর্ব পাড়া জামে মসজিদ</li>
+                    <li>বড় সর্দার বাড়ি জুম্মা মসজিদ</li>
+                    <li>হাজি বাড়ি ও জমদ্দার বাড়ি পাঞ্জেগানা</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏠 গ্রামের উল্লেখযোগ্য বাড়ি</h2>
+        <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div style="font-size: 0.9rem;">
+                • তিন কড়ি বেপারি বাড়ি<br>• মাইজের বাড়ি<br>• বেছার বাড়ি
+            </div>
+            <div style="font-size: 0.9rem;">
+                • সর্দার বাড়ি<br>• জমদ্দার বাড়ি<br>• বড় সর্দার বাড়ি
+            </div>
+            <div style="font-size: 0.9rem;">
+                • গাজি/হাজি বাড়ি<br>• ডিলার/কুমার বাড়ি<br>• দাস বাড়ি
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>&copy; ২০২৬ ফনিসাইর গ্রাম ডিজিটাল ডিরেক্টরি | ৩ নং সুবিদপুর পূর্ব ইউনিয়ন</p>
+</div>
+
+</body>
+</html>
